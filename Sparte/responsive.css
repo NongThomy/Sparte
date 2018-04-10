@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    header {
+        background-color: cadetblue;
+    }
+    header img {
+        max-width: 50%;
+    }
+    .photo {
+        border: 1px solid black;
+        height: 15em;
+        width: 15em;
+    }
+    section,
+    section .textRight {
+        text-align: center;
+    }
+    .layout {
+        padding: 1em;
+    }
+    section a {
+        margin: 1em;
+    }
+}

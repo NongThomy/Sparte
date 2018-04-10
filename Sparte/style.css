@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #C1092B;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    position: absolute;
+    width: 40em;
+    align-self: center;
+}
+
+header a {
+    position: absolute;
+    bottom: 2em;
+    margin-top: calc(100vh - 3em);
+}
+
+.photo {
+    display: inline-block;
+    border: 2px solid black;
+    height: 20em;
+    width: 20em;
+}
+
+section h3 {
+    text-align: center;
+}
+
+.layout {
+    padding: 2em;
+}
+
+.textRight {
+    text-align: right;
+}
